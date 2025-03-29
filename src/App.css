@@ -4,6 +4,8 @@
   color: #ffffff;
 }
 
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -47,12 +49,14 @@
   color: #0a0a0a;
   font-weight: 600;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .start-scan-btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px)
 }
+
+
 
 .hero-section {
   padding: 4rem 2rem;

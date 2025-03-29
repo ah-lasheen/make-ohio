@@ -17,14 +17,11 @@ function App() {
       <main className="hero-section">
         <div className="hero-content">
           <h1>Transform Reality into Digital 3D</h1>
+          <h3>Ahmed Lasheen, Kuldeep Depnath, Kunsh Arora</h3>
           <p>
-            Create professional 3D models instantly using your iPhone or iPad's
-            advanced sensors
+            Create professional 3D models instantly using your iPhone or iPad's advanced sensors
           </p>
-          <div className="cta-buttons">
-            <button className="primary-btn">Try for free</button>
-            <button className="secondary-btn">About us</button>
-          </div>
+          <a className="hero-scan" href="/scan">Try now</a>
         </div>
 
         <div className="feature-cards">
