@@ -1,1 +1,50 @@
- 
+.scan-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  color: #ffffff;
+}
+
+.upload-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.upload-section {
+  margin-bottom: 2rem;
+}
+
+.upload-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 2px dashed #00f5a0;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-box:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.upload-box input[type="file"] {
+  display: none;
+}
+
+.upload-box label {
+  cursor: pointer;
+  color: #00f5a0;
+  font-weight: 500;
+}
+
+.point-cloud-container {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  padding: 2rem;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
